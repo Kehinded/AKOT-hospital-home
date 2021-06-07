@@ -1,3 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-size: 1.6rem;
+  background-color: #f9f7f6;
+  font-family: "Oswald", sans-serif;
+  color: #6D5D4B;
+  overflow-x: hidden; }
+
 .active-item-1 {
   width: 87%;
   height: 100%;
